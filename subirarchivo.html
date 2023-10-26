@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subir archivos</title>
+</head>
+<body>
+    <form action="subirarchivo.php" method="post" enctype="multipart/form-data">
+        <label for="files">Selecciona archivos para subir (tamaño máximo: 200 KB cada uno, máximo total: 300 KB):</label><br><br>
+        <input type="file" name="files[]" accept=".jpg, .png" multiple><br><br>
+        <input type="submit" value="Subir archivos" name="submit">
+    </form>
+</body>
+</html>
